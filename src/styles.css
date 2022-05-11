@@ -1,0 +1,78 @@
+.keyboard {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #467deb;
+}
+.keyboard .exlanation_wrapper {
+  position: absolute;
+  top: 35px;
+  left: 0.5%;
+  background-color: #d0defa;
+  display: flex;
+  padding: 2%;
+  width: 10%;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 28px;
+}
+.keyboard .keyboard__wrapper {
+  width: 100%;
+  max-width: 1280px;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard .keyboard__wrapper .key {
+  height: 85px;
+  width: 6%;
+  max-width: 305px;
+  margin: 3px;
+  border-radius: 4px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1.05rem;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  transition: 0.1s;
+}
+.keyboard .keyboard__wrapper .wider {
+  width: 10%;
+}
+.keyboard .keyboard__wrapper .extra-wider {
+  width: 40%;
+}
+.keyboard .keyboard__wrapper .key-activated {
+  background-color: #d0defa;
+  color: black;
+}
+.keyboard .keyboard__wrapper .space {
+  max-width: 100%;
+}
+.keyboard .keyboard__wrapper .shift {
+  width: 13%;
+}
+.keyboard .text-area {
+  width: 70%;
+  min-height: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  background-color: #d0defa;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
