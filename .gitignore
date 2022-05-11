@@ -80,7 +80,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-src
+
 
 # Gatsby files
 .cache/
@@ -89,7 +89,7 @@ src
 # public
 
 # vuepress build output
-.vuepress/src
+.vuepress/
 
 # Serverless directories
 .serverless/
